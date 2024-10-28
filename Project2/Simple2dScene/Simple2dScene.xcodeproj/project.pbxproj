@@ -15,6 +15,7 @@
 		29FFA5412CA8B0EB00B31C67 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FFA53E2CA8B0EB00B31C67 /* SDL2.framework */; };
 		29FFA5422CA8B0EB00B31C67 /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FFA53F2CA8B0EB00B31C67 /* SDL2_mixer.framework */; };
 		29FFA5432CA8B11500B31C67 /* shaders in CopyFiles */ = {isa = PBXBuildFile; fileRef = 29FFA5342CA8AFA300B31C67 /* shaders */; };
+		BA3882D92CCD80990044DE54 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA3882D82CCD80990044DE54 /* Entity.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,10 +50,14 @@
 		BA3103A82CBAEE4900EC8119 /* spaceship2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceship2.png; sourceTree = "<group>"; };
 		BA3103A92CBAF1BB00EC8119 /* result1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = result1.jpg; sourceTree = "<group>"; };
 		BA3103AA2CBAF1BB00EC8119 /* result2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = result2.png; sourceTree = "<group>"; };
-		BA40EADD2CAC597D0001D51E /* messi 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "messi 3.jpg"; sourceTree = "<group>"; };
-		BA40EADE2CAC597D0001D51E /* ronaldo 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ronaldo 3.jpg"; sourceTree = "<group>"; };
-		BAA3DD2E2CB07A400044C925 /* beaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beaker.png; sourceTree = "<group>"; };
-		BAA3DD2F2CB07A4A0044C925 /* drops.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drops.png; sourceTree = "<group>"; };
+		BA3882CD2CCD80640044DE54 /* bounce.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bounce.wav; sourceTree = "<group>"; };
+		BA3882CE2CCD80640044DE54 /* crypto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crypto.mp3; sourceTree = "<group>"; };
+		BA3882CF2CCD80640044DE54 /* font1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font1.png; sourceTree = "<group>"; };
+		BA3882D02CCD80640044DE54 /* george_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = george_0.png; sourceTree = "<group>"; };
+		BA3882D12CCD80640044DE54 /* platformPack_tile027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = platformPack_tile027.png; sourceTree = "<group>"; };
+		BA3882D22CCD80640044DE54 /* soph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soph.png; sourceTree = "<group>"; };
+		BA3882D72CCD80990044DE54 /* Entity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		BA3882D82CCD80990044DE54 /* Entity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
 		BAEA9F0E2CB9905800166A2B /* result.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = result.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +97,9 @@
 		29FFA52A2CA8AF0300B31C67 /* Simple2dScene */ = {
 			isa = PBXGroup;
 			children = (
+				BA3882D72CCD80990044DE54 /* Entity.h */,
+				BA3882D82CCD80990044DE54 /* Entity.cpp */,
+				BA3882D32CCD80640044DE54 /* assets */,
 				29FFA52B2CA8AF0300B31C67 /* main.cpp */,
 				BA3103A92CBAF1BB00EC8119 /* result1.jpg */,
 				BA3103AA2CBAF1BB00EC8119 /* result2.png */,
@@ -100,10 +108,6 @@
 				BA3103A62CBAEE4900EC8119 /* space_background.jpg */,
 				BA3103A72CBAEE4900EC8119 /* spaceship1.png */,
 				BA3103A82CBAEE4900EC8119 /* spaceship2.png */,
-				BAA3DD2E2CB07A400044C925 /* beaker.png */,
-				BAA3DD2F2CB07A4A0044C925 /* drops.png */,
-				BA40EADD2CAC597D0001D51E /* messi 3.jpg */,
-				BA40EADE2CAC597D0001D51E /* ronaldo 3.jpg */,
 				29FFA5352CA8AFA400B31C67 /* glm */,
 				29FFA5322CA8AFA300B31C67 /* ShaderProgram.cpp */,
 				29FFA5332CA8AFA300B31C67 /* ShaderProgram.h */,
@@ -123,6 +127,19 @@
 				29FFA5392CA8B0B600B31C67 /* OpenGL.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA3882D32CCD80640044DE54 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				BA3882CD2CCD80640044DE54 /* bounce.wav */,
+				BA3882CE2CCD80640044DE54 /* crypto.mp3 */,
+				BA3882CF2CCD80640044DE54 /* font1.png */,
+				BA3882D02CCD80640044DE54 /* george_0.png */,
+				BA3882D12CCD80640044DE54 /* platformPack_tile027.png */,
+				BA3882D22CCD80640044DE54 /* soph.png */,
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29FFA52C2CA8AF0300B31C67 /* main.cpp in Sources */,
+				BA3882D92CCD80990044DE54 /* Entity.cpp in Sources */,
 				29FFA5372CA8AFA400B31C67 /* ShaderProgram.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
