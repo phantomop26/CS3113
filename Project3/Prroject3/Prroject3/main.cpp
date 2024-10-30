@@ -26,6 +26,7 @@
 #include "stb_image.h"
 #include <cmath>
 #include <ctime>
+#include <vector>
 
 enum AppStatus { RUNNING, DISPLAY_MESSAGE, TERMINATED };
 
