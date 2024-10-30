@@ -38,9 +38,38 @@
 		BA04CA212CCF38FD002BB43D /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = shaders; path = Prroject3/shaders; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BA57DFBC2CD04B0B007EC186 /* Exceptions for "Prroject3" folder in "Prroject3" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				glm/detail/glm.cpp,
+			);
+			target = BA04C8772CCF387B002BB43D /* Prroject3 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		BA57DFC02CD04B4E007EC186 /* Exceptions for "Prroject3" folder in "Copy Files" phase from "Prroject3" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = BA04C8762CCF387B002BB43D /* CopyFiles */;
+			membershipExceptions = (
+				ball.png,
+				base.png,
+				cloud.png,
+				lose.png,
+				wall.png,
+				win.png,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BA04C87A2CCF387B002BB43D /* Prroject3 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BA57DFBC2CD04B0B007EC186 /* Exceptions for "Prroject3" folder in "Prroject3" target */,
+				BA57DFC02CD04B4E007EC186 /* Exceptions for "Prroject3" folder in "Copy Files" phase from "Prroject3" target */,
+			);
 			path = Prroject3;
 			sourceTree = "<group>";
 		};
