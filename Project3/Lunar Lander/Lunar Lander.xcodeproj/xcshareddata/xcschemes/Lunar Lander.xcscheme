@@ -34,7 +34,7 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
-      useCustomWorkingDirectory = "YES"
+      useCustomWorkingDirectory = "NO"
       customWorkingDirectory = "/Users/anuraghav/Desktop/College Assignments and Textbooks/Sanj/GameProgramming/Lunar Lander/Lunar Lander"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
