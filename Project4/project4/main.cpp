@@ -8,8 +8,6 @@
 * NYU School of Engineering Policies and Procedures on
 * Academic Misconduct.
 **/
-//Extra Credit- Press B to use Bomb Blast
-
 #define GL_SILENCE_DEPRECATION
 
 #ifdef _WINDOWS
