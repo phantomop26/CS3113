@@ -18,10 +18,6 @@
 		E1C4F6F0242D51CA00A63731 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1C4F6EF242D51CA00A63731 /* Entity.cpp */; };
 		E1C4F6F3242D54BC00A63731 /* platformPack_tile007.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1C4F6F2242D54AA00A63731 /* platformPack_tile007.png */; };
 		E1C4F6F7242D550300A63731 /* font1.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1C4F6F6242D54FD00A63731 /* font1.png */; };
-		E1C4F6F9242D563C00A63731 /* pacman.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1C4F6F8242D563500A63731 /* pacman.png */; };
-		E1C4F6FD242D646900A63731 /* enemy1.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1C4F6FA242D643400A63731 /* enemy1.png */; };
-		E1C4F6FE242D647100A63731 /* enemy2.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1C4F6FB242D643F00A63731 /* enemy2.png */; };
-		E1C4F6FF242D647800A63731 /* enemy3.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1C4F6FC242D645600A63731 /* enemy3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,16 +30,20 @@
 				E1C4F6EE242D430C00A63731 /* shaders in CopyFiles */,
 				E1C4F6F7242D550300A63731 /* font1.png in CopyFiles */,
 				E1C4F6F3242D54BC00A63731 /* platformPack_tile007.png in CopyFiles */,
-				E1C4F6F9242D563C00A63731 /* pacman.png in CopyFiles */,
-				E1C4F6FD242D646900A63731 /* enemy1.png in CopyFiles */,
-				E1C4F6FE242D647100A63731 /* enemy2.png in CopyFiles */,
-				E1C4F6FF242D647800A63731 /* enemy3.png in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BA700B8D2CDEF23300A5217C /* enemy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy1.png; sourceTree = "<group>"; };
+		BA700B8E2CDEF23300A5217C /* enemy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy2.png; sourceTree = "<group>"; };
+		BA700B8F2CDEF23300A5217C /* enemy3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy3.png; sourceTree = "<group>"; };
+		BA700B902CDEF23300A5217C /* pacman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacman.png; sourceTree = "<group>"; };
+		BA700B912CDEF3DE00A5217C /* bomb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bomb.wav; sourceTree = "<group>"; };
+		BA700B922CDEF3DE00A5217C /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
+		BA700B932CDEF3DE00A5217C /* kill.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kill.wav; sourceTree = "<group>"; };
+		BA700B942CDEF3DE00A5217C /* Magicdustbin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Magicdustbin.mp3; sourceTree = "<group>"; };
 		E1C4F6D3242D3E0300A63731 /* Project4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project4; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C4F6D6242D3E0300A63731 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E1C4F6DD242D41B700A63731 /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
@@ -60,10 +60,6 @@
 		E1C4F6F1242D51F200A63731 /* Entity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
 		E1C4F6F2242D54AA00A63731 /* platformPack_tile007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = platformPack_tile007.png; sourceTree = "<group>"; };
 		E1C4F6F6242D54FD00A63731 /* font1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font1.png; sourceTree = "<group>"; };
-		E1C4F6F8242D563500A63731 /* pacman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacman.png; sourceTree = SOURCE_ROOT; };
-		E1C4F6FA242D643400A63731 /* enemy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy1.png; sourceTree = SOURCE_ROOT; };
-		E1C4F6FB242D643F00A63731 /* enemy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy2.png; sourceTree = SOURCE_ROOT; };
-		E1C4F6FC242D645600A63731 /* enemy3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy3.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,12 +78,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA700B952CDEF3DE00A5217C /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				BA700B912CDEF3DE00A5217C /* bomb.wav */,
+				BA700B922CDEF3DE00A5217C /* jump.wav */,
+				BA700B932CDEF3DE00A5217C /* kill.wav */,
+				BA700B942CDEF3DE00A5217C /* Magicdustbin.mp3 */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
 		E1C4F6CA242D3E0300A63731 = {
 			isa = PBXGroup;
 			children = (
 				E1C4F6D5242D3E0300A63731 /* Project4 */,
 				E1C4F6D4242D3E0300A63731 /* Products */,
 				E1C4F6E3242D428C00A63731 /* Frameworks */,
+				BA700B952CDEF3DE00A5217C /* assets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,11 +110,11 @@
 		E1C4F6D5242D3E0300A63731 /* Project4 */ = {
 			isa = PBXGroup;
 			children = (
-				E1C4F6FC242D645600A63731 /* enemy3.png */,
-				E1C4F6FB242D643F00A63731 /* enemy2.png */,
-				E1C4F6FA242D643400A63731 /* enemy1.png */,
-				E1C4F6F8242D563500A63731 /* pacman.png */,
 				E1C4F6F6242D54FD00A63731 /* font1.png */,
+				BA700B8D2CDEF23300A5217C /* enemy1.png */,
+				BA700B8E2CDEF23300A5217C /* enemy2.png */,
+				BA700B8F2CDEF23300A5217C /* enemy3.png */,
+				BA700B902CDEF23300A5217C /* pacman.png */,
 				E1C4F6F2242D54AA00A63731 /* platformPack_tile007.png */,
 				E1C4F6E1242D41E400A63731 /* ShaderProgram.cpp */,
 				E1C4F6E0242D41D800A63731 /* stb_image.h */,
@@ -319,6 +327,7 @@
 				HEADER_SEARCH_PATHS = (
 					/Library/Frameworks/SDL2_image.framework/Versions/A/Headers,
 					/Library/Frameworks/SDL2.framework/Versions/A/Headers,
+					/Library/Frameworks/SDL2_mixer.framework/Versions/A/Headers,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -335,6 +344,7 @@
 				HEADER_SEARCH_PATHS = (
 					/Library/Frameworks/SDL2_image.framework/Versions/A/Headers,
 					/Library/Frameworks/SDL2.framework/Versions/A/Headers,
+					/Library/Frameworks/SDL2_mixer.framework/Versions/A/Headers,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
